@@ -13,6 +13,7 @@ export function manageFriends(state = { friends: [],}, action){
           ...state.friends.slice(removalIndex + 1)
         ]
       });
+
       default:
         return state;
   }
